@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://cdn.leroymerlin.com.br/products/papel_de_parede_cerveja_bebida_cervejeiro_bar_sala_adesivo___1567478709_4566_600x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+
+h1 {
+    padding: 15px;
+    color: #fff;
+}
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.insert-product-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 270px;
+    height: 270px;
+    background-color: #fff;
+    margin: 10px;
+    -webkit-box-shadow: 7px 13px 9px -7px rgba(153,153,153,0.65);
+    -moz-box-shadow: 7px 13px 9px -7px rgba(153,153,153,0.65);
+    box-shadow: 7px 13px 9px -7px rgba(153,153,153,0.65);
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.product-card:hover {
+    transform: scale(1);
+}
+div .line-bar {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #999999;
+}
+.product-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.product-img img {
+    width: 150px;
+    height: 150px;
+}
+.product-descripton {
+    font-size: 15px;
+    padding: 15px;
+}
+.product-descripton h3 {
+    color: #999999;
+    margin-bottom: 20px;
+}
+div .price {
+    font-size: 18px;
+}
+.hidden {
+    display: none;
+}
